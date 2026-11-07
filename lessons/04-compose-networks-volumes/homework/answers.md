@@ -19,9 +19,9 @@ stats נמצא באותה רשת ש-Compose יצר, ולכן הוא פונה ל-
 
 | image | גודל |
 |---|---|
-| `single` | ____ |
-| `multi` | ____ |
-| `kitchen` | ____ |
+| `single` | 92.7MB |
+| `multi` | 92.7MB |
+| `kitchen` | 244MB |
 
 `multi` כמעט בגודל של `single` כי שניהם מבוססים על אותו `nginx:1.30-alpine` ומכילים כמעט אותם קבצים (כמה KB של אתר). כל Node נשאר בשלב `build`, שלא נכנס ל-image הסופי. `kitchen` גדול בהרבה כי הוא כולל את כל Node.
 
